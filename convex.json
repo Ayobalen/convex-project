@@ -1,0 +1,8 @@
+{
+  "authConfigs": [
+    {
+      "domain": "https://your-auth-provider.com",
+      "appId": "your-app-id"
+    }
+  ]
+}

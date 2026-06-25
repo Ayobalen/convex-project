@@ -1,0 +1,25 @@
+{
+  "name": "tenantdesk",
+  "version": "0.1.0",
+  "description": "Multi-tenant helpdesk backend built on Convex",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "convex dev",
+    "codegen": "convex codegen",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "convex": "^1.0.0"
+  },
+  "devDependencies": {
+    "@edge-runtime/vm": "^4.0.0",
+    "@types/node": "^20.0.0",
+    "convex-test": "^0.0.35",
+    "typescript": "^5.0.0",
+    "vitest": "^2.1.0"
+  }
+}
